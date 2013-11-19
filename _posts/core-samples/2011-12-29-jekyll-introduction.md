@@ -410,3 +410,11 @@ Jekyll-bootstrap is intended to provide helper methods and strategies aimed at m
 
 Please take a look at [{{ site.categories.api.first.title }}]({{ BASE_PATH }}{{ site.categories.api.first.url }})
 or jump right into [Usage]({{ BASE_PATH }}{{ site.categories.usage.first.url }}) if you'd like.
+
+## sdfsdf
+ If you wish, you can add a leading and tailing pipe to each line of the table:
+
+ | First Header | Second Header | Third Header |
+ | ------------ | ------------- | ------------ |
+ | Content Cell | Content Cell  | Content Cell |
+ | Content Cell | Content Cell  | Content Cell |
