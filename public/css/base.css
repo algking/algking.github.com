@@ -68,5 +68,12 @@ a:hover {text-decoration:none;}
   color: #2a6496;
   background-color: #fafaf6;
 }
+
+body table th, table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+
+/* tr th {padding:0px 5px 0 0 ;} */
+
 /* 显示评论按钮 */
 .show-commend {width: 100%; margin-bottom: 40px;}
