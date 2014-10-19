@@ -30,14 +30,13 @@ disqus:
   shortname: suyan-zh
 
 # 主题设置，自动激活某个标签
-active: 技术
+active: php
 
 # 首页除了最新文章外显示分类
 cates: 
-  - erlang
-  - javascript
   - emacs
-
+  - php
+   
 # 中文本地化
 locals:
   tags: 标签

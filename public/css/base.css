@@ -59,6 +59,9 @@ a:hover {text-decoration:none;}
 #content h2, h3 {line-height: 2;}
 #content blockquote > :first-child {margin-top: 0; }
 #content blockquote > :last-child {margin-bottom: 0;}
+
+#content .min-img {max-width:65%}
+
 /* 其他配置 */
 .center { text-align: center;}
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
