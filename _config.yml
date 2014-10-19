@@ -1,7 +1,9 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
 markdown: redcarpet
-
+# markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 # 作者信息
 author: 
   name: algking
