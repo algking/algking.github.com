@@ -8,7 +8,7 @@ redcarpet:
 author: 
   name: algking
   email: alg_king@hotmail.com
-  link: http://algking.github.com
+  link: http://algking.github.io
   weibo: http://weibo.com/algking
   github: http://github.com/algking
 
@@ -24,8 +24,8 @@ favicon: http://yansu-uploads.stor.sinaapp.com/imgs/favicon.ico
 
 # google analytics 设置
 ga:
-  id: UA-54767140-1
-  url: algking.github.com
+  id: UA-55912853-1
+  url: algking.github.io
 
 # disqus 设置
 disqus:

@@ -3,6 +3,9 @@ layout: post
 category: "工具"
 tags: [zsh,fish,linux]
 ---
+
+[TOC]
+
 ### zsh 与yosemite 的bug? ###
 在更新了Mac Yosemite 后,发现各种问题,首先是php,macport等问题
 接着就是zsh了,不知道为什么,`zsh`总是几乎占了100%的cpu,这让我的macbook电池
@@ -10,7 +13,15 @@ tags: [zsh,fish,linux]
 之前也用过fish,发现还是不错的一个shell,从设计上面说,非常方便.功能也不错.
 于是就准备换到fish算了.
 
+
 ![image](/public/img/zsh-yosemite-bug.png )
+
+> 发了封邮件给zsh后,
+>reply: Any chance that it's this issue with zsh-autosuggestions?
+
+[问题解决](https://github.com/tarruda/zsh-autosuggestions/issues/24 )
+发现原来是因为zsh-autosuggestions 的问题.
+
 
 ### fish优点 ###
 - Autosuggestions 自动提示history,命令补全等很方便
@@ -41,9 +52,12 @@ tags: [zsh,fish,linux]
    set fish_plugins autojump bundler brew
    set -xu PATH  /usr/local/bin:$PATH
    
-   比较不爽的就是export 在这里不能用要使用`set -x`代替
+   比较不爽的就是export 在这里不能用要使用`set -x`代替:
+
+   `set -x PATH  /usr/local/bin $PATH`
+   
    -x : -export 
-   -u : 意思是对所有fish版本都使用
+   -u : 意思是对所有fish session都使用
 ```
 ### 编写fish插件 ###
 
