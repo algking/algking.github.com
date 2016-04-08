@@ -14,8 +14,7 @@ tags: [zsh,fish,linux]
 于是就准备换到fish算了.
 
 
-![image](/public/img/zsh-yosemite-bug.png )
-
+![image](/public/img/zsh-yosemite-bug.png)
 > 发了封邮件给zsh后,
 >reply: Any chance that it's this issue with zsh-autosuggestions?
 

@@ -60,7 +60,7 @@ a:hover {text-decoration:none;}
 #content blockquote > :first-child {margin-top: 0; }
 #content blockquote > :last-child {margin-bottom: 0;}
 
-#content .min-img {max-width:65%}
+/* #content .img-thumbnail {max-width:80%} */
 
 /* 其他配置 */
 .center { text-align: center;}
