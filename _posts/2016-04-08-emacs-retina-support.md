@@ -135,7 +135,7 @@ o+ 然后在 cus-start.el 增加对应的配置
 
 最后附上图
 
-![image](/public/img/2016-04-08-emacs-retina-support_20160409_235242_75074HPT@2x.png)
+![image](/public/img/2016-04-08-emacs-retina-support_20160409_235242_75074HPT.png)
 
 ### Markdown-mode 的截图 screenshot ###
 
