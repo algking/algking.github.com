@@ -18,14 +18,14 @@ redcarpet:
 author: 
   name: algking
   email: alg_king@hotmail.com
-  link: http://algking.github.io
+  link: http://algking.github.com
   weibo: http://weibo.com/algking
   github: http://github.com/algking
 
 # 站点信息
 title: ErlangFan
 description: algking的博客
-url: http://algking.github.io
+url: http://algking.github.com
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -35,7 +35,7 @@ favicon: /public/img/favicon.ico
 # google analytics 设置
 ga:
   id: UA-55912853-1
-  url: algking.github.io
+  url: algking.github.com
 
 # disqus 设置
 disqus:
