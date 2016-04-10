@@ -69,6 +69,8 @@ a:hover {text-decoration:none;}
   background-color: #fafaf6;
 }
 
+pre {padding: 0px}
+
 body table th, table td {
 padding: 6px 13px;
 border: 1px solid #ddd;
@@ -77,3 +79,5 @@ border: 1px solid #ddd;
 
 /* 显示评论按钮 */
 .show-commend {width: 100%; margin-bottom: 40px;}
+
+

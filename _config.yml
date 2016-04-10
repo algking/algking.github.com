@@ -1,7 +1,17 @@
 permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
-# markdown: kramdown
+# paginate: 10
+# markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  syntax_highlighter: rouge  
+
+# highlighter: pygments
+
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 # 作者信息
@@ -19,8 +29,8 @@ url: http://algking.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: http://yansu-uploads.stor.sinaapp.com/imgs/gavatar.png
-favicon: http://yansu-uploads.stor.sinaapp.com/imgs/favicon.ico
+gavatar: /public/img/gavatar.png
+favicon: /public/img/favicon.ico
 
 # google analytics 设置
 ga:
@@ -29,8 +39,8 @@ ga:
 
 # disqus 设置
 disqus:
-  shortname: suyan-zh
-
+  shortname: errocks
+ 
 # 主题设置，自动激活某个标签
 active: php
 
